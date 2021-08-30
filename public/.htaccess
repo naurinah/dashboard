@@ -1,0 +1,8 @@
+RewriteEngine On
+# directory browsing
+Options +FollowSymlinks
+
+<IfModule mod_headers.c>
+  Header set Access-Control-Allow-Origin *
+</IfModule>
+
